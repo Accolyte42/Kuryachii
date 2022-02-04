@@ -1,0 +1,7 @@
+N = 27
+
+cur_num = 2
+while cur_num < int(N**(1/2))+1
+	pow = 2
+	while i**pow < N:
+		
