@@ -5,4 +5,16 @@ def digits(num):
         num //= 10
     return counter + 1
 
-    
+# num = 41234567894987654321
+num = int(input())
+dig = digits(num)
+# print(dig)
+
+flag = True
+for i in range(dig // 2):
+    r_num = num % 10 ** (i + 1) // 10 ** i
+    l_num = num // 10 ** (dig - i - 1) % 10
+    if l_num != r_num:
+        flag = False
+        break
+print('YES') if flag else print('NO')
