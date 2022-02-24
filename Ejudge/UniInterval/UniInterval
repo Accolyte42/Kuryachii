@@ -1,0 +1,43 @@
+# s = input()
+
+s = '(66, 91), (152, 230), (21, 81), (323, 342), (158, 211), (286, 332), (294, 330), (18, 58), (183, 236)'
+
+# s = '(0, 0), (3, 4), (0, 0)'
+
+dots = eval(s)
+
+print(sorted(dots))
+
+# max_x = dots[0][0]
+# max_y = dots[0][1]
+# min_x = dots[0][0]
+# min_y = dots[0][1]
+
+#for i in dots:
+#	max_x = max(max_x, i[0])
+#	max_y = max(max_y, i[1])
+#	min_x = min(min_x, i[0])
+#	min_y = min(min_y, i[1])
+
+# print(((min_x - max_x)**2 + (min_y - max_y)**2)**(1/2))
+
+# print(min_x, max_x, min_y, max_y)
+
+# len_curve = 0
+# x = 0
+# y = 0
+
+#for i in tuples:
+#	len_curve += ((x - i[0])**2 + (y - i[1])**2)**(1/2)
+#	x = i[0]
+#	y = i[1]
+
+
+# print(len_curve)
+
+# for i in tuples:
+#	print(i)
+
+# s = s.split(', ')
+# 
+# print(s)
